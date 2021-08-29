@@ -9,9 +9,8 @@ This project is to create reusabe react form components
 
 ## 1. Input field
 
-[Usage]
-
-`    <Input
+Usage
+      `<Input
         placeholder="Enter your name
         value={name}
         onChange={setName}
@@ -19,7 +18,7 @@ This project is to create reusabe react form components
       />`
 ## 2. Button
 
-[Usage]
+Usage
 
      `<Button
         style={{ width: "30%", marginTop: "1rem" }}
