@@ -13,17 +13,15 @@ const Input = (props) => {
     return null;
   };
   return (
-    <label>
-      <input
-        className={rootClassName}
-        onChange={handleOnChange}
-        autoComplete="off"
-        autoCorrect="off"
-        autoCapitalize="off"
-        spellCheck="false"
-        {...rest}
-      />
-    </label>
+    <input
+      className={rootClassName}
+      onChange={handleOnChange}
+      autoComplete="off"
+      autoCorrect="off"
+      autoCapitalize="off"
+      spellCheck="false"
+      {...rest}
+    />
   );
 };
 
