@@ -16,6 +16,9 @@ Usage
         onChange={setName}
         style={{ width: "30%" }}
       />`
+      
+ **Can pass any input attributes to component**
+ 
 ## 2. Button
 
 Usage
@@ -26,3 +29,5 @@ Usage
      >
         Log in
       </Button>`
+      
+   **Can pass any button attributes to component**
